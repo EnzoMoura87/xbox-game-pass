@@ -120,6 +120,7 @@ body {
     margin: 60px 0;
     padding: 20px;
     border-radius: 20px;
+    position: relative;
 }
 
 .jogos-titulo {
@@ -161,14 +162,19 @@ body {
     background-color: #e75e8d;
     padding: 5px 15px;
     border-radius: 25px;
-    animation: bounce; 
-    animation-duration: 2s; 
 }
 
 .btn-jogos:hover {
     background-color: #fff;
     color: #e75e8d;
     transition: .3;
+}
+
+.btn-jogos.principal {
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    width: 200px;
 }
 
 
@@ -188,4 +194,17 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+@media(0px <= width <= 480px) {
+    
 }
