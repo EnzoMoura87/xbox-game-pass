@@ -1,0 +1,32 @@
+.lancamentos-titulo {
+    font-size: 40px;
+    color: #e75e8d;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.jogo-lan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-lan {
+    width: 350px;
+}
+
+.jogos-lan-conteudo {
+    width:40%;
+    padding: 20px;
+    color: #e75e8d;
+}
+
+.ultimo-p {
+    margin-bottom: 10px;
+}
+
+.linha-lancamentos {
+    border-color: #e75e8d;
+    margin: 10px 0;
+}
+

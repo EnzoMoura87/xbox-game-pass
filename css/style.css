@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: #e75e8d;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #1e1e1e;
+}
+
+/* Inicio do cabeçalho */
+
+.cabecalho {
+    max-width: 1120px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-lista a {
+    margin: 0px 20px;
+    color: #666;
+    transition: .2s ease-in-out;
+    font-size: 15px;
+}
+
+.menu-lista a:hover {
+    color: #e75e8d;
+}
+
+.menu-lista.ativado a {
+    color: #e75e8d;
+}
+
+/* Fim do cabeçalho */
+
+.container {
+    background-color: #26292a;
+    max-width: 1120px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+/* Incio do banner */
+.banner {
+    background-color: #1e2122;
+    background-image: url(../imagens/banner-bg.jpg);
+    color: #fff;
+    width: 100%;
+    min-height: 382px;
+    border-radius: 20px;
+    padding: 70px 50px;
+    animation: backInDown;
+    animation-duration:1.5s;
+}
+
+.banner-conteudo {
+    width: 60%;
+    animation: flipInX 8s linear;
+}
+
+.banner-boas-vindas {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-titulo {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+.banner-btn {
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.banner-btn:hover {
+    color: #e75e8d;
+    background-color: #fff;
+    transition: .3s;
+}
+
+/* Fim do banner */
+
+
+/* Inicio jogos lançamento */
+
+.jogos {
+    background-color: #1e2122;
+    color: #fff;
+    margin: 60px 0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.jogos-titulo {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.jogos-titulo a {
+    color: #fff;
+}
+
+.jogos-lancamentos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jogo-lancamento {
+    margin: 12px;
+    background-color: #26292a;
+    padding: 30px 10px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 220px;
+}
+
+.jogo-lancamento img {
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+.jogo-lancamento p {
+    margin-bottom: 15px;
+}
+
+.btn-jogos {
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 5px 15px;
+    border-radius: 25px;
+    animation: bounce; 
+    animation-duration: 2s; 
+}
+
+.btn-jogos:hover {
+    background-color: #fff;
+    color: #e75e8d;
+    transition: .3;
+}
+
+
+/* Final jogos lançamento */
+
+
+footer {
+    max-width: 1120px;
+    margin: 30px auto;
+    color: #e75e8d;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
