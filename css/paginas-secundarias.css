@@ -1,3 +1,5 @@
+/* Inicio Lançamentos */
+
 .lancamentos-titulo {
     font-size: 40px;
     color: #e75e8d;
@@ -29,4 +31,24 @@
     border-color: #e75e8d;
     margin: 10px 0;
 }
+
+.paginas {
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+.pagina {
+    padding: 10px 15px;
+    background-color: #666;
+}
+
+.pagina:hover, .pagina.selecionado:hover {
+    background-color: #e75e8e9a;
+}
+
+.pagina.selecionado {
+    background-color: #e75e8d;
+}
+
+/* Final Lançamentos */
 
