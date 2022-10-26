@@ -187,6 +187,33 @@ body {
 
 /* Final jogos lançamento */
 
+/* Inicio Proximos lançamentos */
+
+
+.proximo-lancamento {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #666;
+}
+
+.proximo-lancamento img {
+    width: 100px;
+    border-radius: 30px;
+}
+
+.proximo-lancamento p {
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+
+
+/* Final Proximos lançamentos */
+
 
 footer {
     max-width: 1120px;
@@ -265,6 +292,20 @@ footer a:hover {
         text-align: center;
         max-width: 380px;
     }
+
+    .proximo-lancamento {
+        justify-content: center;
+        padding: 30px;
+    }
+    
+    .proximo-lancamento img {
+        width: 150px;
+        margin: 0 30px;
+    }
+    
+    .proximo-lancamento p {
+        margin: 15px;
+    }
 }
 
 @media(481px <= width <= 787px) {
@@ -317,6 +358,20 @@ footer a:hover {
       justify-content: center;
       align-items: center;
     }
+
+    .proximo-lancamento {
+        justify-content: center;
+        padding: 30px;
+    }
+    
+    .proximo-lancamento img {
+        width: 200px;
+        margin: 0 30px;
+    }
+    
+    .proximo-lancamento p {
+        margin: 15px;
+    }
 }
 
 @media(788px <= width <= 1024px) {
@@ -346,6 +401,20 @@ footer a:hover {
 
     .jogos-lancamentos {
         justify-content: center;
+    }
+
+    .proximo-lancamento {
+        justify-content: center;
+        padding: 30px;
+    }
+    
+    .proximo-lancamento img {
+        width: 100px;
+        margin: 0 30px;
+    }
+    
+    .proximo-lancamento p {
+        width: 120px;
     }
 }
 
@@ -377,5 +446,18 @@ footer a:hover {
 
     .jogos-lancamentos {
         justify-content: center;
+    }
+
+    .proximo-lancamento {
+        padding: 30px;
+    }
+    
+    .proximo-lancamento img {
+        width: 100px;
+        margin: 0 30px;
+    }
+    
+    .proximo-lancamento p {
+        width:150px;
     }
 }
