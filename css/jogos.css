@@ -74,3 +74,33 @@ body {
 .seta {
     width: 80px;
 }
+
+
+
+@media(0px <= width <= 480px) {
+    .banner-titulo {
+        font-size: 30px;
+    }
+
+    .descricao-titulo {
+        font-size: 35px;
+        line-height: 50px;
+        margin: 40px 0; 
+    }
+
+    iframe {
+        height: 250px;
+    }
+}
+
+@media(481px <= width <= 787px) {
+    iframe {
+        height: 350px;
+    }
+}
+
+@media(788px <= width <= 1024px) {
+    iframe {
+        height: 400px;
+    }
+}
