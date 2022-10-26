@@ -52,3 +52,66 @@
 
 /* Final Lançamentos */
 
+/* Lançamentos MQ */
+@media(0px <= width <= 480px) {
+    .lancamentos-titulo {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .jogo-lan {
+       flex-direction: column;
+    }
+
+    .jogos-lan-conteudo {
+        width:100%;
+        text-align: start;
+    }
+
+    .ultimo-p {
+        margin-bottom: 20px;
+    }
+
+    .linha-lancamentos {
+        margin: 25px 0;
+    }
+}
+
+@media(481px <= width <= 600px) {
+    .lancamentos-titulo {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .jogo-lan {
+       flex-direction: column;
+    }
+
+    .jogos-lan-conteudo {
+        width:100%;
+        text-align: center;
+    }
+
+    .ultimo-p {
+        margin-bottom: 20px;
+    }
+
+    .linha-lancamentos {
+        margin: 25px 0;
+    }
+}
+
+
+@media(601px <= width <= 787px) {
+    .img-lan {
+        width: 300px;
+    }
+
+    .jogos-lan-conteudo {
+        width:50%;
+    }
+    
+    .jogos-lan-conteudo p {
+        font-size: 15px;
+    }
+}
