@@ -49,7 +49,7 @@ body {
     background-color: green;
     margin: auto;
     margin-bottom: 50px;
-    animation: fadeInLeftBig 4s linear;
+    animation: fadeInLeftBig 2.2s linear;
 }
 
 .descricao-sub-titulo {
