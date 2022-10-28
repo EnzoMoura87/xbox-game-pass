@@ -115,3 +115,18 @@
         font-size: 15px;
     }
 }
+
+
+
+/* Inicio Proximos lançamentos */
+
+.img-proximos {
+    width: 300px;
+    margin:20px 0;
+}
+
+.jogos-pro-conteudo {
+    width:60%;
+    padding: 20px;
+    color: #e75e8d;
+}
