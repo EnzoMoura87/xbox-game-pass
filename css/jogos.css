@@ -43,6 +43,15 @@ body {
     margin: 60px 0;
 }
 
+.linha {
+    width: 100px;
+    height: 15px;
+    background-color: green;
+    margin: auto;
+    margin-bottom: 50px;
+    animation: fadeInLeftBig 4s linear;
+}
+
 .descricao-sub-titulo {
     color: #fff;
     text-align: center;
